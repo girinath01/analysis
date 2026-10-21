@@ -28,6 +28,34 @@ The dashboard then provides:
 
 The interface is responsive and includes interactive sliders and service-aware controls. Internet add-ons are disabled when the customer has no internet service, and multiple lines is disabled when phone service is not selected.
 
+## Dashboard preview
+
+![Interactive customer churn dashboard](app-pic.png)
+
+Use the dashboard to enter a customer profile and review the resulting risk gauge, survival outlook, lifetime value estimate, and model explanation.
+
+## Analysis visualizations
+
+### Customer survival curve
+
+<p align="center">
+  <img src="Images/SurvivalCurve.png" alt="Customer survival curve" width="520">
+</p>
+
+### Churn and tenure relationship
+
+<p align="center">
+  <img src="Images/tenure-churn.png" alt="Churn by customer tenure" width="520">
+</p>
+
+### Model feature importance
+
+<p align="center">
+  <img src="Images/model_feat_imp.png" alt="Model feature importance" width="520">
+</p>
+
+The complete collection of segment comparisons and model-analysis plots is available in the [`Images/`](Images/) directory.
+
 ## Quick start
 
 ### Requirements
